@@ -26,17 +26,18 @@ for poll results. A user should be able to edit his choices anytime even
 after submission i.e. if Dish 1 was Rank 1, the user can change it to no
 Rank or Rank 2, if there is another dish with the same rank the other
 dish will lose its rank
-URL to fetch dishes:
+
+### URL to fetch dishes:
+`API: [https://raw.githubusercontent.com/syook/reactdishpoll/main/db.json](https://raw.githubusercontent.com/syook/reactdishpoll/main/db.json)`
+
+Sample dish object
 ```json
-json: [https://raw.githubusercontent.com/syook/reactdishpoll/main/db.json](https://raw.githubusercontent.com/syook/reactdishpoll/main/db.json)
-`Sample dish object
 {
 "id": 1,
 "dishName": "Lasagne",
-"description": "Breaded fried chicken with waffles, and a side of maple
-syrup.",
+"description": "Breaded fried chicken with waffles, and a side of maple syrup.",
 "image": "https://loremflickr.com/300/300/food"
-}`
+}
 ```
 ### TAB 2:
 
