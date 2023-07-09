@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "username": "Dubey Ravi Vinod",
+        "email": "dubeyravivinod@gmail.com",
+        "password": "dubey@123"
+    },
+    {
+        "id": 2,
+        "username": "Ramesh Chaudhary",
+        "email": "romanchaudhary@gmail.com",
+        "password": "ramesh@123"
+    },
+    {
+        "id": 3,
+        "username": "Radha Kishan",
+        "email": "kishan1@gmail.com",
+        "password": "kishan1@gmail.com"
+    },
+    {
+        "id": 4,
+        "username": "Sanjeeth Singh",
+        "email": "sanjeethsingh@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "id": 5,
+        "username": "Ashish Kumar",
+        "email": "avd@gmail.com",
+        "password": "ad1999@outlook.com"
+    }
+]
