@@ -28,7 +28,7 @@ const DishVoting = () => {
           // const response = await axios.get(
           //   "https://mocki.io/v1/36c25d3d-e2fe-4326-83b0-ccc23f3e1764"
           // );
-          // console.log(response.data);
+          console.log(response.data);
           const data = response.data;
           const new_data = data.map((item) => ({ ...item, count: 0 }));
           dispatch(updateList(new_data));
