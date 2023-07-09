@@ -17,7 +17,7 @@ const DishVoting = () => {
           ? JSON.parse(localStorage.getItem("dishes-data"))
           : [];
       console.log("data:: ", data);
-      if (data) {
+      if (data.length > 0) {
         console.log("Getting data from local storage");
         setIsLoading(false);
       } else {
