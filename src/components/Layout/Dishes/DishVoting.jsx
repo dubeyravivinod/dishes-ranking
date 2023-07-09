@@ -18,9 +18,11 @@ const DishVoting = () => {
           : [];
       console.log("data:: ", data);
       if (data) {
+        console.log("Getting data from local storage");
         setIsLoading(false);
       } else {
         try {
+          console.log("Fetching API");
           setIsLoading(true);
           const response = await axios.get(
             "https://raw.githubusercontent.com/syook/react-dishpoll/main/db.json"
