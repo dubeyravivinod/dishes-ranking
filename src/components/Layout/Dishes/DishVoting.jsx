@@ -22,12 +22,12 @@ const DishVoting = () => {
       } else {
         try {
           setIsLoading(true);
-          // const response = await axios.get(
-          //   "https://raw.githubusercontent.com/syook/react-dishpoll/main/db.json"
-          // );
           const response = await axios.get(
-            "https://mocki.io/v1/36c25d3d-e2fe-4326-83b0-ccc23f3e1764"
+            "https://raw.githubusercontent.com/syook/react-dishpoll/main/db.json"
           );
+          // const response = await axios.get(
+          //   "https://mocki.io/v1/36c25d3d-e2fe-4326-83b0-ccc23f3e1764"
+          // );
           // console.log(response.data);
           const data = response.data;
           const new_data = data.map((item) => ({ ...item, count: 0 }));
